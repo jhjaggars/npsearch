@@ -1,0 +1,99 @@
+{
+  "scoring_weights": {
+    "compensation_weight": 30,
+    "location_weight": 25,
+    "growth_weight": 20,
+    "work_life_weight": 15,
+    "reputation_weight": 5,
+    "benefits_weight": 5
+  },
+  "specialty_preferences": [
+    "Family Medicine",
+    "Primary Care",
+    "Urgent Care"
+  ],
+  "geographic_constraints": {
+    "max_commute_minutes": 45,
+    "preferred_cities": [
+      "Raleigh",
+      "Cary",
+      "Apex",
+      "Durham"
+    ]
+  },
+  "salary_requirements": {
+    "minimum": 95000,
+    "target": 110000
+  },
+  "exclusion_filters": {
+    "job_requirements": [
+      "overnight work",
+      "night shift",
+      "graveyard shift",
+      "11pm",
+      "midnight",
+      "3rd shift",
+      "24/7 availability",
+      "on-call overnight",
+      "weekend overnight"
+    ],
+    "work_locations": [
+      "hospital",
+      "emergency department",
+      "ED",
+      "ER",
+      "inpatient",
+      "ICU",
+      "intensive care",
+      "trauma center",
+      "level 1 trauma",
+      "acute care hospital"
+    ],
+    "employment_types": [
+      "travel nursing",
+      "locum tenens",
+      "temporary",
+      "contract only"
+    ],
+    "other_exclusions": [
+      "must relocate",
+      "relocation required",
+      "surgery required",
+      "surgical procedures",
+      "weekend call",
+      "holiday call"
+    ]
+  },
+  "preferred_settings": [
+    "clinic",
+    "outpatient",
+    "primary care office",
+    "family practice",
+    "ambulatory care",
+    "medical office",
+    "telehealth",
+    "remote work"
+  ],
+  "work_schedule_preferences": {
+    "max_hours_per_week": 40,
+    "preferred_schedule": "Monday-Friday",
+    "avoid_weekends": true,
+    "avoid_holidays": true,
+    "flexible_scheduling": true
+  },
+  "benefits_priorities": [
+    "health insurance",
+    "retirement matching",
+    "PTO",
+    "continuing education",
+    "malpractice insurance",
+    "flexible scheduling",
+    "telehealth options"
+  ],
+  "professional_development": {
+    "mentorship_program": true,
+    "continuing_education_support": true,
+    "conference_attendance": true,
+    "certification_reimbursement": true
+  }
+}
