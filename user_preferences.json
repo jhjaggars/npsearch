@@ -13,7 +13,7 @@
     "Urgent Care"
   ],
   "geographic_constraints": {
-    "max_commute_minutes": 45,
+    "max_commute_minutes": 30,
     "preferred_cities": [
       "Raleigh",
       "Cary",
@@ -59,9 +59,7 @@
       "must relocate",
       "relocation required",
       "surgery required",
-      "surgical procedures",
-      "weekend call",
-      "holiday call"
+      "surgical procedures"
     ]
   },
   "preferred_settings": [
